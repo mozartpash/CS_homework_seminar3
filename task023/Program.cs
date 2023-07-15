@@ -11,8 +11,8 @@ int GetNumber(string message)
 }
 void Cube(int num)
 {
-int count = 1;
-    while (count <= num) ;
+    int count = 1;
+    while (count <= num)
     {
         if (count == num)
         Console.Write(count * count * count + ".");
